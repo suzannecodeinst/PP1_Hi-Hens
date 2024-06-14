@@ -12,4 +12,4 @@ Referred to Love Running site tutorial as a reminder of code structure and comme
 
 ### Media
 
-Favicon from [Favicon.io](https://favicon.io/)
+I designed the Favicon in Adobe Illustrator and converted it at [Favicon.io](https://favicon.io/)
