@@ -9,3 +9,7 @@ The site owners goal is to provide introductary information in a warm and friend
 ## Credits
 
 Referred to Love Running site as a remider of code structure and comment placement.
+
+### Media
+
+Favicon from [Favicon.io](https://favicon.io/))
