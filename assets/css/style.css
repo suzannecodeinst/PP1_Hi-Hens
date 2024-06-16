@@ -1,3 +1,7 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat+Alternates:wght@500;600&display=swap');
+
+
 /* Asterisk selector to over-ride default browser settings */
 * {
     box-sizing: border-box;
@@ -10,13 +14,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Hind' , sans-serif;
 }
 
 /* Main Content */
 main {
     /* make main take up extra space so that it pushes footer down */
     background-color: blueviolet;
-    flex: auto;
+    flex: 1 0 auto;
+    /* keep playing with flex values -as not fully understanding what the shrink value is doing at 0 */
+}
+
+/* test fonts imported */
+h1, h2, h3 {
+    font-family: 'Montserrat' , sans-serif;
 }
 
 /* Checking that css file is connected properly to html */
