@@ -43,3 +43,5 @@ Referred to Love Running site tutorial as a reminder of code structure and comme
 ### Media
 
 I designed the Favicon in Adobe Illustrator and converted it at [Favicon.io](https://favicon.io/)
+
+Fonts from [Google Fonts](https://fonts.google.com/), are Monserrat for Headings and Hind for content text. Sans Serif is set as a default.
