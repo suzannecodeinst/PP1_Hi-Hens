@@ -1,0 +1,25 @@
+/* Asterisk selector to over-ride default browser settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Content */
+main {
+    /* make main take up extra space so that it pushes footer down */
+    background-color: blueviolet;
+    flex: auto;
+}
+
+/* Checking that css file is connected properly to html */
+footer {
+    background-color: aqua;
+}

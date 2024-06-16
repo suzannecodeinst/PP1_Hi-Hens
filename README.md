@@ -32,10 +32,10 @@ The site owners goal is to provide practical introductory information in a warm 
 
  - Contact Us
 
-    - The Contact Us page conatins a form that the user can submit.
+    - The Contact Us page contains a form that the user can submit.
     - The form allows the user to select boxes that determine their interests, join a course, send future details, join a mailing list.
     - The form cannot be submitted without the fields filled correctly. The user will be asked to fill in their name and email address. 
-     
+
 ## Credits
 
 Referred to Love Running site tutorial as a reminder of code structure and comment placement.
