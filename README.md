@@ -6,6 +6,36 @@ Users of this site will be able to find out more information to help them unders
 
 The site owners goal is to provide practical introductory information in a warm and friendly way to encourage others to keep hens. Their aim is to drive users to enrol for their courses.
 
+## Features
+
+- Navigation
+
+    - The Navigation bar is consistently visible at the top of each page. It features the logo and links to the Home page, Gallery and Contact Us pages. It is fully responsive and uses a hamburger drop-down for mobiles.
+    - The Navigation bar is always available and makes sure the user can easily find their way to the pages across the site.
+
+- Home Page
+
+    - The Landing page Hero image welcomes the user to the site and informs them of the key qualities of the site owners, a family that keep a small flock of hens in a city.
+    - Introductary text explains the site and its contents.
+     - The WHY HENS? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
+
+- The Footer
+
+    - The Footer provides links for the user to the appropriate social media channels that the site owner has set up, encouraging the user to engage further with the site owner.
+    - The social media links always open up in new tabs.
+
+
+- Gallery Page
+
+    - The Gallery Page shows images of the site owners hens and family.
+    - The purpose of the page is to share with the user visual information of what keeping hens can look like throughout the year, the set up of the space, the interaction of the family and the joy that this can bring. It serves to be a positive encouragement to the user and also prompt their curiosity to contact the user with a view to joining courses the site owner would like to run.
+
+ - Contact Us
+
+    - The Contact Us page conatins a form that the user can submit.
+    - The form allows the user to select boxes that determine their interests, join a course, send future details, join a mailing list.
+    - The form cannot be submitted without the fields filled correctly. The user will be asked to fill in their name and email address. 
+     
 ## Credits
 
 Referred to Love Running site tutorial as a reminder of code structure and comment placement.
