@@ -40,7 +40,7 @@ I am building the pages mobile first
 
 ## Credits
 
-Referred to Love Running site tutorial as a reminder of code structure and comment placement.
+Referred to Love Running site tutorial as a reminder of code structure, comment placement and order of build.
 
 FreeCodeCamp [article](https://www.freecodecamp.org/news/css-units-when-to-use-each-one/#:~:text=By%20using%20rem%20units%2C%20you,This%20helps%20with%20accessibility.) on CSS units and when to use. 
 

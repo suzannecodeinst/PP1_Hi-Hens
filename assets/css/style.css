@@ -26,6 +26,10 @@ header {
     z-index: 99;
 }
 
+header a {
+    text-decoration: none;
+}
+
 /* Main Content */
 main {
     /* make main take up extra space so that it pushes footer down */
@@ -37,10 +41,13 @@ main {
 /* Using h1 for logo - may need to be more targeted as content is added */
 h1 {
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    color: #6e540a;
 }
 
 /* nav bar styling */
-ul {
+#nav-list {
     text-align: right;
     list-style-type: none;
     letter-spacing: 2px;
