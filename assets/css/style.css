@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #443850;
 }
 
 /* General styling */
@@ -15,6 +16,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Hind&family' , sans-serif;
+}
+
+header {
+    background-color: #f2f7f2;
+    padding: 1rem 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 /* Main Content */
@@ -28,16 +37,18 @@ main {
 /* Using h1 for logo - may need to be more targeted as content is added */
 h1 {
     font-family: 'Montserrat', sans-serif;
-    padding-left: 1rem;
 }
 
 /* nav bar styling */
-#nav-bar {
-    padding-right: 1rem;
-}
-
 ul {
     text-align: right;
+    list-style-type: none;
+    letter-spacing: 2px;
+    /* consider adding a box shadow if it helps it stand out */
+}
+
+li {
+    margin-bottom: 1em;
 }
 
 /* Checking that css file is connected properly to html */

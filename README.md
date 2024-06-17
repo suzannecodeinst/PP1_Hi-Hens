@@ -8,6 +8,8 @@ The site owners goal is to provide practical introductory information in a warm 
 
 ## Features
 
+I am building the pages mobile first
+
 - Navigation
 
     - The Navigation bar is consistently visible at the top of each page. It features the logo and links to the Home page, Gallery and Contact Us pages. It is fully responsive and uses a hamburger drop-down for mobiles.
