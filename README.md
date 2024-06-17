@@ -40,6 +40,8 @@ The site owners goal is to provide practical introductory information in a warm 
 
 Referred to Love Running site tutorial as a reminder of code structure and comment placement.
 
+FreeCodeCamp [article](https://www.freecodecamp.org/news/css-units-when-to-use-each-one/#:~:text=By%20using%20rem%20units%2C%20you,This%20helps%20with%20accessibility.) on CSS units and when to use. 
+
 ### Media
 
 I designed the Favicon in Adobe Illustrator and converted it at [Favicon.io](https://favicon.io/)

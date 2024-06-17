@@ -25,9 +25,10 @@ main {
     /* keep playing with flex values -as not fully understanding what the shrink value is doing at 0 */
 }
 
-/* test fonts imported */
+/* test that fonts imported work */
 h1 {
     font-family: 'Montserrat', sans-serif;
+    padding-left: 1.5rem;
 }
 
 /* Checking that css file is connected properly to html */
