@@ -44,8 +44,14 @@ Referred to Love Running site tutorial as a reminder of code structure, comment 
 
 FreeCodeCamp [article](https://www.freecodecamp.org/news/css-units-when-to-use-each-one/#:~:text=By%20using%20rem%20units%2C%20you,This%20helps%20with%20accessibility.) on CSS units and when to use. 
 
+Refine [article](https://refine.dev/blog/rem-vs-em/#introduction) on the difference between rem and em.
+
+
+
 ### Media
 
 I designed the Favicon in Adobe Illustrator and converted it at [Favicon.io](https://favicon.io/)
 
-Fonts from [Google Fonts](https://fonts.google.com/), are Monserrat for Headings and Hind for content text. Sans Serif is set as a default.
+Fonts from [Google Fonts](https://fonts.google.com/) are Monserrat for Headings and Hind for content text. Sans Serif is set as a default.
+
+Color palette was created using [Coolors](https://coolors.co/)
