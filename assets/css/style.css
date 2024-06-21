@@ -34,7 +34,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
-    box-shadow: 0 2px 2px #443850;
+    box-shadow: 0 2px 4px #443850;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -46,17 +46,18 @@ header h1 {
     color: #3d011d;
     font-size: 2.5rem;
     letter-spacing: 1px;
+    padding-top: 0.5rem;
 }
 
 header a {
     text-decoration: none;
+    color: #3d011d;
 }
 
 /* nav bar styling */
 #nav-list {
     list-style-type: none;
     letter-spacing: 2px;
-    color: #3d011d;
     font-size: 115%;
 }
 
@@ -118,6 +119,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 
     #nav-list {
@@ -130,5 +132,12 @@ footer {
 
     .nav-dropdown-label {
         display: none;
+    }
+}
+
+/* media query for laptops and larger (992px and up) */
+@media screen  and (min-width: 992px) {
+    #nav-list a:hover {
+        border-bottom: 1px solid #3d011d;
     }
 }
