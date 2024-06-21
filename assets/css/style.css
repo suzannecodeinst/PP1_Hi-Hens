@@ -18,33 +18,81 @@ body {
     flex-direction: column;
     font-family: 'Hind&family' , sans-serif;
     color: #443850;
+    background-color: #f2f7f2;
 }
 
 /* Using h1 for logo - may need to be more targeted as content is added */
-h1 h2 h3 {
+h2 h3 {
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    font-size: 2.5em;
 }
 
 /* header */
 
 header {
     background-color: #aecfde;
-    padding: 0.5rem 1rem 0 1rem;
+    padding: 0.5rem 1rem;
     position: fixed;
     width: 100%;
     z-index: 99;
-    box-shadow: 0 2px 4px #443850;
+    box-shadow: 0 2px 2px #443850;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+/* logo */
 header h1 {
+    font-family: 'Montserrat', sans-serif;
     color: #3d011d;
     font-size: 2.5rem;
+    letter-spacing: 2px;
 }
 
 header a {
     text-decoration: none;
+}
+
+/* nav bar styling */
+#nav-list {
+    list-style-type: none;
+    letter-spacing: 2px;
+    color: #3d011d;
+    font-size: 115%;
+}
+
+nav li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #3d011d;
+    color: #3d011d;
+}
+
+/* style nav bar for dropdown */
+nav {
+    position: absolute;
+    background-color: #aecfde;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    box-shadow: 0 2px 2px #443850;
+    display: none;  
+    text-align: right;
+    top: 100%;
+}
+
+/* Nav dropdown toggle */
+#nav-dropdown:checked~nav{
+    display: block;
+}
+
+#nav-dropdown {
+    display: none;
+}
+
+.nav-dropdown-label {
+    font-size: 2rem;
 }
 
 /* Main Content */
@@ -53,30 +101,10 @@ main {
     background-color: blueviolet;
     flex: 1 0 auto;
     /* keep playing with flex values -as not fully understanding what the shrink value is doing at 0 */
+    margin-top: 64.5px;
 }
 
-/* Using h1 for logo - may need to be more targeted as content is added */
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    font-size: 2.5em;
-    color: #3d011d;
-}
-
-/* nav bar styling */
-#nav-list {
-    text-align: right;
-    list-style-type: none;
-    letter-spacing: 2px;
-    color: #3d011d;
-    /* consider adding a box shadow if it helps it stand out- can I add something else? */
-}
-
-li {
-    margin-bottom: 1em;
-}
-
-/* Checking that css file is connected properly to html */
+/* footer */
 footer {
     background-color: aqua;
 }
