@@ -7,23 +7,39 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #443850;
+
 }
 
 /* General styling */
 body {
     min-height: 100vh;
     display: flex;
+    /* column flex direction top to bottom */
     flex-direction: column;
     font-family: 'Hind&family' , sans-serif;
+    color: #443850;
 }
 
+/* Using h1 for logo - may need to be more targeted as content is added */
+h1 h2 h3 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+}
+
+/* header */
+
 header {
-    background-color: #f2f7f2;
+    background-color: #aecfde;
     padding: 1rem 1rem;
     position: fixed;
     width: 100%;
     z-index: 99;
+}
+
+header h1 {
+    color: #3d011d;
+    font-size: 2.5rem;
 }
 
 header a {
@@ -43,7 +59,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     font-size: 2.5em;
-    color: #6e540a;
+    color: #3d011d;
 }
 
 /* nav bar styling */
@@ -51,7 +67,8 @@ h1 {
     text-align: right;
     list-style-type: none;
     letter-spacing: 2px;
-    /* consider adding a box shadow if it helps it stand out */
+    color: #3d011d;
+    /* consider adding a box shadow if it helps it stand out- can I add something else? */
 }
 
 li {
