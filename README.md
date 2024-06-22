@@ -55,3 +55,5 @@ I designed the Favicon in Adobe Illustrator and converted it at [Favicon.io](htt
 Fonts from [Google Fonts](https://fonts.google.com/) are Monserrat for Headings and Hind for content text. Sans Serif is set as a default.
 
 Color palette was created using [Coolors](https://coolors.co/)
+
+Footer icons courtesy of [Font Awesome](https://fontawesome.com/)

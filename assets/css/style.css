@@ -161,4 +161,8 @@ footer {
     #nav-list a:hover {
         border-bottom: 1px solid #3d011d;
     }
+
+    #social-media i:hover {
+        color: #ffffff;
+    }
 }
