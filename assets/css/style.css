@@ -40,13 +40,17 @@ header {
     align-items: baseline;
 }
 
+header > .nav-dropdown-label {
+    color: #3d011d;
+}
+
 /* logo */
 header h1 {
     font-family: 'Montserrat', sans-serif;
     color: #3d011d;
     font-size: 2.5rem;
     letter-spacing: 1px;
-    padding-top: 0.5rem;
+
 }
 
 header a {
@@ -66,8 +70,7 @@ nav li {
 }
 
 .active {
-    border-bottom: 1px solid #3d011d;
-    color: #3d011d;
+    color: white;
 }
 
 /* style nav bar for dropdown */
@@ -99,7 +102,7 @@ nav {
 /* Main Content */
 main {
     /* make main take up extra space so that it pushes footer down */
-    background-color: blueviolet;
+    background-color: #f2f7f2;
     flex: 1 0 auto;
     /* keep playing with flex values -as not fully understanding what the shrink value is doing at 0 */
     margin-top: 64.5px;
@@ -107,7 +110,12 @@ main {
 
 /* footer */
 footer {
-    background-color: aqua;
+    background-color: #aecfdf;
+}
+
+/* font awesome icons color */
+#social-media li {
+    color: #3d011d;
 }
 
 /* media query for tablets and larger (768px and up) */
@@ -119,7 +127,6 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 0.5rem;
-        padding-bottom: 0.5rem;
     }
 
     #nav-list {
@@ -132,6 +139,11 @@ footer {
 
     .nav-dropdown-label {
         display: none;
+    }
+
+    /* main */
+    main {
+        margin-top: 67.7px;
     }
 }
 
