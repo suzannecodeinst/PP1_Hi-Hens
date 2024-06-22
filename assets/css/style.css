@@ -113,8 +113,17 @@ footer {
     background-color: #aecfdf;
 }
 
-/* font awesome icons color */
-#social-media li {
+#social-media {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+/* font awesome icons */
+#social-media i {
     color: #3d011d;
 }
 
