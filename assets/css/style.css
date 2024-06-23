@@ -137,7 +137,8 @@ main {
 #intro-paragraph {
     display: flex;
     flex-direction: row;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 20px 1rem;
+    align-items: flex-end;
 }
 
 .intro-paragraph {
@@ -215,9 +216,26 @@ footer {
     }
 
     #welcome {
-        height: 440px;
-        width: 600px;
+        height: 470px;
+        width: 640px;
     }
 
+    #welcome-text {
+        font-size: 2.5rem;
+        position: absolute;
+        bottom: 40px;
+        padding-left: 3rem;
+    }
+
+    #intro-paragraph{
+        padding-left: 1.5rem;
+        padding-right: 2rem;
+    }
+
+    .intro-paragraph {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
     
 }
