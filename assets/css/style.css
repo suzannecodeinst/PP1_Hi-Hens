@@ -14,7 +14,6 @@
 body {
     min-height: 100vh;
     display: flex;
-    /* column flex direction top to bottom */
     flex-direction: column;
     font-family: 'Hind&family' , sans-serif;
     color: #443850;
@@ -110,20 +109,22 @@ main {
 }
 
 /* hero section style - for mobile */
-#index-welcome {
-    background-color: #bbbe64; 
+#index-welcome-style {
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    background-color: #bbbe64;
 }
 
 #welcome {
-    width: 100%;
     height: 253px;
+    width: 344px;
     background-image: url("../images/Index_hero-image_Tandhen.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    position:relative;  
-    /* float: left; */
+    position:relative;
+    display: flex;
+    flex-direction: row;  
 }
 
 #welcome-text {
@@ -131,6 +132,16 @@ main {
     position: absolute;
     bottom: 20px;
     padding-left: 1rem;
+}
+
+#intro-paragraph {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+}
+
+.intro-paragraph {
+    line-height: 1.25rem;
 }
 
 /* footer */
@@ -178,12 +189,7 @@ footer {
     /* main */
     main {
         margin-top: 51.7px;
-    }
-
-    #welcome {
-        width: 100%;
-        height: 300px;
-    }    
+    } 
 }
 
 /* media query for laptops and larger (992px and up) */
@@ -191,12 +197,7 @@ footer {
     #nav-list a:hover {
         border-bottom: 1px solid #3d011d;
     }
-
-    #welcome {
-        width: 100%;
-        height: 450px;
-    }  
-
+    
     #social-media i:hover {
         color: #ffffff;
     }
