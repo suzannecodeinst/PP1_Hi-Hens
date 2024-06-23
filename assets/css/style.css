@@ -113,6 +113,7 @@ main {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: #bbbe64;
 }
 
@@ -124,7 +125,6 @@ main {
     background-repeat: no-repeat;
     position:relative;
     display: flex;
-    flex-direction: row;  
 }
 
 #welcome-text {
@@ -190,6 +190,18 @@ footer {
     main {
         margin-top: 51.7px;
     } 
+
+    /* hero welcome section */
+    #index-welcome-style {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    
+    /* makes hero image div grow but not shrink as screen sizes change */
+    #welcome {
+        flex: 1 0 auto
+    }
 }
 
 /* media query for laptops and larger (992px and up) */
@@ -201,4 +213,11 @@ footer {
     #social-media i:hover {
         color: #ffffff;
     }
+
+    #welcome {
+        height: 440px;
+        width: 600px;
+    }
+
+    
 }
