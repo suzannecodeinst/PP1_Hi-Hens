@@ -12,7 +12,7 @@ I am building the pages mobile first
 
 - Navigation
 
-    - The Navigation bar is consistently visible at the top of each page. It features the logo and links to the Home page, Gallery and Contact Us pages. It is fully responsive and uses a hamburger drop-down for mobiles.
+    - The Navigation bar is consistently visible at the top of each page. It features the logo and links to the Home page, Gallery, Courses and Contact pages. It is fully responsive and uses a hamburger drop-down for mobiles.
     - The Navigation bar is always available and makes sure the user can easily find their way to the pages across the site.
 
 - Home Page
@@ -23,8 +23,9 @@ I am building the pages mobile first
 
 - The Footer
 
-    - The Footer provides links for the user to the appropriate social media channels that the site owner has set up, encouraging the user to engage further with the site owner.
-    - The social media links always open up in new tabs.
+    - The Footer provides links for the user to the appropriate social media channels that the site owner will set up, encouraging the user to engage further with the site owner.
+    - Currently the social media links are for Facebook, Instagram and Youtube, they link to the main pages of the social media groups, not bespoke pages.
+    - The social media links always open up in new tabs, and on larger screens for laptops and up, will highlight white as you hover.
 
 
 - Gallery Page
@@ -35,7 +36,7 @@ I am building the pages mobile first
  - Contact Us
 
     - The Contact Us page contains a form that the user can submit.
-    - The form allows the user to select boxes that determine their interests, join a course, send future details, join a mailing list.
+    - The form allows the user to select boxes that determine their interest in a specific course.
     - The form cannot be submitted without the fields filled correctly. The user will be asked to fill in their name and email address. 
 
 ## Credits
@@ -60,3 +61,5 @@ Fonts from [Google Fonts](https://fonts.google.com/) are Monserrat for Headings 
 Color palette was created using [Coolors](https://coolors.co/)
 
 Footer icons courtesy of [Font Awesome](https://fontawesome.com/)
+
+All images are original from the site owner. Resized and optimized as webp in Adobe Photoshop. Hero images are all sized as a maximum width of 1024px, so the largest ipad in portrait mode will still have a full width hero image, laptops and larger screens have a modified design.

@@ -108,6 +108,12 @@ main {
     margin-top: 64.5px;
 }
 
+/* hero section style */
+#index-hero {
+    width: 100%;
+    height: 1000px;
+}
+
 /* footer */
 footer {
     background-color: #aecfdf;
