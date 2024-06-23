@@ -62,4 +62,4 @@ Color palette was created using [Coolors](https://coolors.co/)
 
 Footer icons courtesy of [Font Awesome](https://fontawesome.com/)
 
-All images are original from the site owner. Resized and optimized as webp in Adobe Photoshop. Hero images are all sized as a maximum width of 1024px, so the largest ipad in portrait mode will still have a full width hero image, laptops and larger screens have a modified design.
+All images are original from the site owner. Resized and optimized as webp in Adobe Photoshop.
