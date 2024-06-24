@@ -176,7 +176,8 @@ main {
     position: relative;
     z-index: 1;
     display: flex;
-    transform: translateY(-8px)
+    transform: translateY(-8px);
+    margin-bottom: 5px;
 }
 
 .reasons-title {

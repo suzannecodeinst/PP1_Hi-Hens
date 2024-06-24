@@ -2,7 +2,7 @@
 
 Hi Hens is a site for city and urban dwellers with an interest in keeping hens.
 
-Users of this site will be able to find out more information to help them understand how to keep hens in an urban environment. They will be introduced to the site owners story and practice of hen keeping in a unique city environment. There is a basic practical guide, gallery and an outline of courses that the site owner runs. They will also be able to fill in a form to contact the site owner about joining future courses.
+Users of this site will be able to find out more information to help them understand how to keep hens in an urban environment. They will be introduced to the site owners story and practice of hen keeping in a city. There is an introduction, gallery and an outline of courses that the site owner runs. They will also be able to fill in a form to contact the site owner about joining future courses.
 
 The site owners goal is to provide practical introductory information in a warm and friendly way to encourage others to keep hens. Their aim is to drive users to enrol for their courses.
 
@@ -17,9 +17,9 @@ I am building the pages mobile first
 
 - Home Page
 
-    - The Landing page Hero image welcomes the user to the site and informs them of the key qualities of the site owners, a family that keep a small flock of hens in a city.
-    - Introductary text explains the site and its contents.
-     - The WHY HENS? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
+    - The Landing page Hero image welcomes the user to the site and illustrates some of the key qualities of the site owners; family friendly, happy hens, bright and sunny.
+    - Introductary text welcomes you explains the site contents.
+    - The WHY HENS? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
 
 - The Footer
 
