@@ -109,11 +109,7 @@ main {
     margin-top: 48.5px;
 }
 
-/* hero section style - for mobile */
-#index-welcome {
-    
-}
-
+/* index hero section style - for mobile */
 #index-welcome-style {
     width: 100vw;
     background-color: #bbbe64;
@@ -146,8 +142,7 @@ main {
     line-height: 1.25rem;
 }
 
-/* why hens section on index */
-
+/* index why hens section */
 #why-hens-flexbox-container {
     display: flex;
     align-items: flex-start;
@@ -173,6 +168,23 @@ main {
     width: 45%;
     height: auto;
     margin-top: 30px;
+}
+
+#hen-reasons {
+    padding-left: 1.5rem;
+    padding-right: 2.5rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    transform: translateY(-8px)
+}
+
+.reasons-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reasons-list {
+    list-style-type: none;
 }
 
 /* footer */
@@ -279,9 +291,9 @@ footer {
     }
     
     #why-hens-title h3 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         transform: translate(25px, 20px);
-        line-height: 2.5rem;
+        line-height: 2.8rem;
         padding-left: 3rem;
         padding-top: 4.5rem;
     }
