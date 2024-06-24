@@ -52,7 +52,11 @@ Directly referred to code from Love Running for the menu dropdown html and css.
 Pixel By Hand [blog post](https://www.pixelbyhand.com/website-image-size-guidelines/)
  for guidance on sizing of images for web.
 
- Referred to this [article](https://www.educative.io/answers/what-are-css-viewport-units) to understand vmin in css
+Referred to this [article](https://www.educative.io/answers/what-are-css-viewport-units) to understand vmin in css.
+
+Referred to this [article](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate) to understand how to use the transform-function in css to push a div container slightly off screen.
+
+
   
 ### Media
 
