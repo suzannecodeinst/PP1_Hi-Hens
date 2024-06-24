@@ -56,6 +56,7 @@ Referred to this [article](https://www.educative.io/answers/what-are-css-viewpor
 
 Referred to this [article](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate) to understand how to use the transform-function in css to push a div container slightly off screen.
 
+Google Chrome Dev tools were invaluable to test out css code inparticular to understand flexbox.
 
   
 ### Media
