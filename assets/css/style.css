@@ -195,6 +195,11 @@ main {
     margin-bottom: 5px;
 }
 
+/* Gallery page content */
+#photos img {
+    width: 100%;
+}
+
 /* footer */
 footer {
     background-color: #aecfdf;
@@ -212,6 +217,15 @@ footer {
 /* font awesome icons */
 #social-media i {
     color: #3d011d;
+}
+
+/* media query for phones and tablets larger (576x and up) */
+@media screen  and (min-width: 576px) {
+    /* Gallery photos to resize to two columns */
+    #photos {
+        column-count: 2;
+        column-gap: 5px;
+    }
 }
 
 /* media query for tablets and larger (768px and up) */
@@ -327,6 +341,11 @@ footer {
         margin-bottom: 0;
         margin-top: 0;
     }
+
+    /* Gallery photos to resize to three columns */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* media query for laptops and larger (992px and up) */
@@ -363,6 +382,11 @@ footer {
     #egg-in-hand-img {
         width: 35%;
         height: auto;
+    }
+
+    /* Gallery photos to resize to four columns */
+    #photos {
+        column-count: 4;
     }
     
     #social-media i:hover {
