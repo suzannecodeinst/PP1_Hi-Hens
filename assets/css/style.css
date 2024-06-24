@@ -271,14 +271,19 @@ footer {
         padding-top: 3.6rem;
     }
 
-    #hen-reasons > ul {
+    #hen-reasons {
+        padding-left: none;
+        padding-right: 2.5rem;
+        position: relative;
+        z-index: 1;
         display: flex;
-        flex: 1 1 0;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        align-items: flex-start;
-        margin-right: 130px;
-        transform: translateY(-25x);
+        transform: translateY(-140px);
+        margin-bottom: none;
+    }
+
+    #hen-reasons > ul {
+        padding-left: 4rem;
+        margin-left: 6rem;
     }
 
     .reasons-list {
