@@ -147,12 +147,17 @@ main {
 
 /* why hens section on index */
 
+#why-hens-flexbox-container {
+    display: flex;
+    align-items: center;
+}
+
 #why-hens-title {
     background-color: #5171a5;
     border-radius: 50%;
     width: 145px;
     height: 145px;
-    transform: translate(-25px, -25px);
+    /* transform: translate(-25px, -25px); */
 }
 
 #why-hens-title h3 {
@@ -160,6 +165,17 @@ main {
     line-height: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 1.75rem;
+}
+
+#brown-hen-image {
+    /* display: flex; •/
+    /* transform: translateX(25px); */
+}
+
+#brown-hen-image > img {
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
 }
 
 /* footer */
