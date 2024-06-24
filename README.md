@@ -51,7 +51,9 @@ Directly referred to code from Love Running for the menu dropdown html and css.
 
 Pixel By Hand [blog post](https://www.pixelbyhand.com/website-image-size-guidelines/)
  for guidance on sizing of images for web.
- 
+
+ Referred to this [article](https://www.educative.io/answers/what-are-css-viewport-units) to understand vmin in css
+  
 ### Media
 
 I designed the Favicon in Adobe Illustrator and converted it at [Favicon.io](https://favicon.io/)
