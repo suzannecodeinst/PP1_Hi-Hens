@@ -271,10 +271,45 @@ footer {
         padding-top: 3.6rem;
     }
 
+    #hen-reasons > ul {
+        display: flex;
+        flex: 1 1 0;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-right: 130px;
+        transform: translateY(-25x);
+    }
+
+    .reasons-list {
+        max-width: 50%;
+    }
+
+    #reasons-pets {
+        padding-right: 25px;
+        padding-left: 10px;
+    }
+
+    #reasons-family {
+        padding-top: 10px;
+    }
+
+    #reasons-eggs {
+        padding-top: 20px;
+    }
+
+
     #brown-hen-image {
         width: 30%;
         height: auto;
         margin-top: 35px;
+    }
+
+    #egg-in-hand-img {
+        width: 40%;
+        height: auto;
+        transform: translateY(-80px);
+        margin-bottom: 0;
     }
 }
 
@@ -303,6 +338,11 @@ footer {
         line-height: 2.8rem;
         padding-left: 3rem;
         padding-top: 4.5rem;
+    }
+
+    #egg-in-hand-img {
+        width: 35%;
+        height: auto;
     }
     
     #social-media i:hover {
