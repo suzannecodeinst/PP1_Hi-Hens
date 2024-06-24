@@ -111,34 +111,28 @@ main {
 /* hero section style - for mobile */
 #index-welcome-style {
     width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: #bbbe64;
 }
 
 #welcome {
-    height: 253px;
-    width: 344px;
+    height: 300px;
+    width: 100%;
     background-image: url("../images/Index_hero-image_Tandhen.webp");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     position:relative;
-    display: flex;
 }
 
 #welcome-text {
-    font-size: 1.25rem;
+    font-size: 6.5vmin;
     position: absolute;
-    bottom: 20px;
-    padding-left: 1rem;
+    bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
 #intro-paragraph {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem 1rem 20px 1rem;
-    align-items: flex-end;
+    padding: 1rem 1.5rem 20px 1.5rem;
 }
 
 .intro-paragraph {
@@ -193,16 +187,15 @@ footer {
     } 
 
     /* hero welcome section */
-    #index-welcome-style {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-    }
-    
-    /* makes hero image div grow but not shrink as screen sizes change */
     #welcome {
-        flex: 1 0 auto
+        height: 400px;
+        width: 100%;
     }
+
+    #welcome-text {
+        font-size: 6vmin;
+    }
+   
 }
 
 /* media query for laptops and larger (992px and up) */
@@ -210,32 +203,16 @@ footer {
     #nav-list a:hover {
         border-bottom: 1px solid #3d011d;
     }
+
+     /* hero welcome section */
+    #welcome {
+        height: 600px;
+        width: 100%;
+    }
     
     #social-media i:hover {
         color: #ffffff;
     }
 
-    #welcome {
-        height: 470px;
-        width: 640px;
-    }
-
-    #welcome-text {
-        font-size: 2.5rem;
-        position: absolute;
-        bottom: 40px;
-        padding-left: 3rem;
-    }
-
-    #intro-paragraph{
-        padding-left: 1.5rem;
-        padding-right: 2rem;
-    }
-
-    .intro-paragraph {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin-bottom: 30px;
-    }
     
 }
