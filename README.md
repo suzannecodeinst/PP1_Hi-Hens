@@ -18,7 +18,7 @@ I am building the pages mobile first
 - Home Page
 
     - The Landing page Hero image welcomes the user to the site and illustrates some of the key qualities of the site owners; family friendly, happy hens, bright and sunny.
-    - Introductary text welcomes you explains the site contents.
+    - Introductary text welcomes you and explains the site contents.
     - The WHY HENS? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
 
 - The Footer
