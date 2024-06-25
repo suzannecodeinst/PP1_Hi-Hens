@@ -20,7 +20,7 @@ body {
     background-color: #f2f7f2;
 }
 
-/* Using h1 for logo - may need to be more targeted as content is added */
+/* Using h1 for logo */
 h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -88,7 +88,7 @@ nav {
     top: 100%;
 }
 
-/* Nav dropdown toggle */
+/* Nav dropdown toggle copied from Love Running Code Inst Tutorial */
 #nav-dropdown:checked~nav {
     display: block;
 }
@@ -208,10 +208,6 @@ main {
 /* background color change */
 #main-contact {
     background-color: #bbbe64;
-}
-
-#join-a-course {
-   
 }
 
 /* hero image for mobile */
@@ -406,7 +402,6 @@ footer {
         padding-top: 10px;
     }
 
-
     #brown-hen-image {
         width: 30%;
         height: auto;
@@ -427,6 +422,7 @@ footer {
     }
 
     /* Contact page content */
+    
     /* background image */
     #main-contact {
         display: flex;
