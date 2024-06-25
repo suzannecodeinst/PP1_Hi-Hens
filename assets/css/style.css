@@ -208,13 +208,40 @@ main {
     background-color: #bbbe64;
 }
 
+#join-a-course {
+   
+}
+
 /* hero image for mobile */
 #contact-img-mobile {
     width: 100vw;
     height: auto;
+    position: relative;
+    z-index: 50;
+}
+
+/* join a course title for mobile */
+#join-title {
+    background-color: #5171a5;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    transform: translate(-20px, -25px);
+    position: relative;
+    z-index: 5;
+}
+
+#join-title > h3 {
+    transform: translate(20px, 20px);
+    line-height: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1.75rem;
 }
 
 /* form content */
+#join-form {
+    padding: 1.5rem;
+}
 
 
 /* footer */
