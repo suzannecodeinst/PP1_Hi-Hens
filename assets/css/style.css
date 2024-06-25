@@ -187,6 +187,7 @@ main {
 
 .reasons-list {
     list-style-type: none;
+    margin-bottom: 1rem;
 }
 
 #egg-in-hand-img {
