@@ -39,6 +39,12 @@ I am building the pages mobile first
     - The form allows the user to select boxes that determine their interest in a specific course.
     - The form cannot be submitted without the fields filled correctly. The user will be asked to fill in their name and email address. 
 
+## Testing
+
+### Validator testing
+
+- I ran the site through Lighthouse with devtools to check Accessibility of fonts and colors. This highlighted that where I had used a 'ul' element on my index page this wouldn't work very well for screen readers. I changed the elements to divs.
+
 ## Credits
 
 Referred to Love Running site tutorial as a reminder of code structure, comment placement and order of build.
@@ -58,6 +64,7 @@ Referred to this [article](https://developer.mozilla.org/en-US/docs/Web/CSS/tran
 
 Google Chrome Dev tools were invaluable to test out css code inparticular to understand flexbox.
 
+Referred to this [article](https://dequeuniversity.com/rules/axe/4.9/list) to check the correct semantic markup for lists after the Lighthouse check flagged it up.
   
 ### Media
 
