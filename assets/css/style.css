@@ -15,13 +15,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Hind&family' , sans-serif;
+    font-family: 'Hind&family', sans-serif;
     color: #443850;
     background-color: #f2f7f2;
 }
 
 /* Using h1 for logo - may need to be more targeted as content is added */
-h2, h3 {
+h2,
+h3 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     letter-spacing: 1px;
@@ -41,7 +42,7 @@ header {
     align-items: baseline;
 }
 
-header > .nav-dropdown-label {
+header>.nav-dropdown-label {
     color: #3d011d;
 }
 
@@ -82,13 +83,13 @@ nav {
     padding: 0 1rem;
     left: 0;
     box-shadow: 0 2px 2px #443850;
-    display: none;  
+    display: none;
     text-align: right;
     top: 100%;
 }
 
 /* Nav dropdown toggle */
-#nav-dropdown:checked~nav{
+#nav-dropdown:checked~nav {
     display: block;
 }
 
@@ -124,7 +125,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position:relative;
+    position: relative;
 }
 
 #welcome-text {
@@ -200,6 +201,16 @@ main {
     width: 100%;
 }
 
+/* Contact page content */
+/* background image */
+#join-a-course {
+    background-image: url(../images/bg_hen_formpage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
 /* footer */
 footer {
     background-color: #aecfdf;
@@ -220,7 +231,8 @@ footer {
 }
 
 /* media query for phones and tablets larger (576x and up) */
-@media screen  and (min-width: 576px) {
+@media screen and (min-width: 576px) {
+
     /* Gallery photos to resize to two columns */
     #photos {
         column-count: 2;
@@ -229,7 +241,8 @@ footer {
 }
 
 /* media query for tablets and larger (768px and up) */
-@media screen  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
     /* header */
     nav {
         display: block;
@@ -243,7 +256,7 @@ footer {
         display: flex;
     }
 
-    #nav-list > li {
+    #nav-list>li {
         padding-left: 1.5rem;
     }
 
@@ -254,7 +267,7 @@ footer {
     /* index main */
     main {
         margin-top: 51.7px;
-    } 
+    }
 
     /* hero welcome section */
     #welcome {
@@ -282,7 +295,7 @@ footer {
         height: 210px;
         transform: translate(-45px, -55px);
     }
-    
+
     #why-hens-title h3 {
         font-size: 1.75rem;
         transform: translate(25px, 20px);
@@ -301,7 +314,7 @@ footer {
         margin-bottom: none;
     }
 
-    #hen-reasons > ul {
+    #hen-reasons>ul {
         padding-left: 4rem;
         margin-left: 6rem;
     }
@@ -310,11 +323,11 @@ footer {
         max-width: 55%;
     }
 
-    .reasons-list > h4 {
+    .reasons-list>h4 {
         font-size: 1.5rem;
     }
 
-    .reasons-list > p {
+    .reasons-list>p {
         font-size: 1.25rem;
         line-height: 1.5rem;
     }
@@ -346,15 +359,25 @@ footer {
     #photos {
         column-count: 3;
     }
+
+    /* Contact page content */
+    /* background image */
+    #main-contact {
+        display: flex;
+    }
+
+    #join-a-course {
+        flex-grow: 1;
+    }
 }
 
 /* media query for laptops and larger (992px and up) */
-@media screen  and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     #nav-list a:hover {
         border-bottom: 1px solid #3d011d;
     }
 
-     /* hero welcome section */
+    /* hero welcome section */
     #welcome {
         height: 600px;
         width: 100%;
@@ -366,7 +389,7 @@ footer {
         height: 260px;
         transform: translateY(-45px, -65px);
     }
-    
+
     #why-hens-title h3 {
         font-size: 2.4rem;
         transform: translate(25px, 20px);
@@ -388,7 +411,7 @@ footer {
     #photos {
         column-count: 4;
     }
-    
+
     #social-media i:hover {
         color: #ffffff;
     }
