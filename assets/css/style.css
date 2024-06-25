@@ -110,8 +110,8 @@ main {
     margin-top: 48.5px;
 }
 
-/* index hero section style - for mobile */
-#index-welcome-style {
+/* index, and courses hero section style - for mobile */
+.index-welcome-style {
     width: 100vw;
     background-color: #bbbe64;
     z-index: 50;
@@ -422,7 +422,7 @@ footer {
     }
 
     /* Contact page content */
-    
+
     /* background image */
     #main-contact {
         display: flex;
