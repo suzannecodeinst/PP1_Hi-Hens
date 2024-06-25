@@ -202,14 +202,20 @@ main {
 }
 
 /* Contact page content */
-/* background image */
-#join-a-course {
-    background-image: url(../images/bg_hen_formpage.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+
+/* background color change */
+#main-contact {
+    background-color: #bbbe64;
 }
+
+/* hero image for mobile */
+#contact-img-mobile {
+    width: 100vw;
+    height: auto;
+}
+
+/* form content */
+
 
 /* footer */
 footer {
