@@ -110,7 +110,7 @@ main {
     margin-top: 48.5px;
 }
 
-/* index, and courses hero section style - for mobile */
+/* index.html and courses.html hero section style */
 .index-welcome-style {
     width: 100vw;
     background-color: #bbbe64;
@@ -201,6 +201,17 @@ main {
 /* Gallery page content */
 #photos img {
     width: 100%;
+}
+
+/* Courses page */
+#learn-group-hero {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/courses_hero_hens_garden.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: relative;
 }
 
 /* Contact page content */
