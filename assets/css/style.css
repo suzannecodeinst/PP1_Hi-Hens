@@ -240,7 +240,17 @@ main {
 
 /* form content */
 #join-form {
-    padding: 1.5rem;
+    padding:  0 2.5rem;
+}
+
+.text-input {
+    color: #ffffff;
+    border: 1px solid #443850;
+    border-radius: 8px;
+    margin: 5px 0 20px 0;
+    padding: 2px 8px;
+    height: 30px;
+    width: 100%;
 }
 
 
