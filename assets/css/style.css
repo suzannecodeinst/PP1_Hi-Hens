@@ -247,6 +247,8 @@ main {
 /* form content */
 #join-form {
     padding: 0 2.5rem;
+    max-width: 400px;
+    margin: auto;
 }
 
 .text-input {
@@ -274,7 +276,7 @@ main {
 
 .submit-form-button {
     border-radius: 50%;
-    background-color: #5171a5;
+    background-color: #3d011d;
     color: #fafafa;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;

@@ -47,50 +47,52 @@
             <div id="join-title">
                 <h3>Join a<br>Course</h3>
             </div>
-            <form action="https://formdump.codeinstitute.net" method="POST" id="join-form">
-                <!-- text fields required -->
-                <label for="first-name">First Name</label>
-                <br>
-                <input type="text" id="first-name" name="first-name" class="text-input" placeholder="Violetta" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <br>
-                <input type="text" id="last-name" name="last-name" class="text-input" placeholder="Hen" required>
-                <br>
-                <label for="email">Email Address</label>
-                <br>
-                <input type="email" id="email" name="email" class="text-input" placeholder="Violetta@example.cluck"
-                    required>
-                <br>
-                <!-- radio buttons course selection-->
-                <div class="radio-buttons">
-                    <p>Select a course for more info</p>
-                    <div>
-                        <input type="radio" id="hentroduction" name="course-selector" class="hentroduction" required
-                            checked>
-                        <label for="hentroduction">Hentroduction</label>
+            <div id="form-flexbox-style">
+                <form action="https://formdump.codeinstitute.net" method="POST" id="join-form">
+                    <!-- text fields required -->
+                    <label for="first-name">First Name</label>
+                    <br>
+                    <input type="text" id="first-name" name="first-name" class="text-input" placeholder="Violetta"
+                        required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <br>
+                    <input type="text" id="last-name" name="last-name" class="text-input" placeholder="Hen" required>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="email" id="email" name="email" class="text-input" placeholder="Violetta@example.cluck"
+                        required>
+                    <br>
+                    <!-- radio buttons course selection-->
+                    <div class="radio-buttons">
+                        <p>Select a course for more info</p>
+                        <div>
+                            <input type="radio" id="hentroduction" name="course-selector" class="hentroduction" required
+                                checked>
+                            <label for="hentroduction">Hentroduction</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="dr-hen" name="course-selector" class="dr-hen" required>
+                            <label for="dr-hen">Dr Hen</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="hen-house" name="course-selector" class="hen-house" required>
+                            <label for="hen-house">Hen House 1-2-1</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="multiple-courses" name="course-selector" class="multiple-courses"
+                                required>
+                            <label for="hen-house">More than one please!</label>
+                            <br>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" id="dr-hen" name="course-selector" class="dr-hen" required>
-                        <label for="dr-hen">Dr Hen</label>
+                    <!-- submit -->
+                    <div id="submit-form-button">
+                        <button type="submit" class="submit-form-button">Tell me<br>more</button>
                     </div>
-                    <div>
-                        <input type="radio" id="hen-house" name="course-selector" class="hen-house" required>
-                        <label for="hen-house">Hen House 1-2-1</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="multiple-courses" name="course-selector" class="multiple-courses"
-                            required>
-                        <label for="hen-house">More than one please!</label>
-                        <br>
-                    </div>
-                </div>
-                <!-- submit -->
-                <div id="submit-form-button">
-                    <button type="submit" class="submit-form-button">Tell me<br>more</button>
-                </div>
-
-            </form>
+                </form>
+            </div>
         </section>
     </main>
 
