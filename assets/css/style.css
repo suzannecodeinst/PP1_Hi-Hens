@@ -347,7 +347,7 @@ footer {
     }
 
     /* hero welcome section */
-    #welcome {
+    .hero-images {
         height: 400px;
     }
 
