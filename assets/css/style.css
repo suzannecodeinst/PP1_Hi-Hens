@@ -210,6 +210,10 @@ main {
     background-image: url(../images/courses_hero_hens_garden.webp);
 }
 
+#intro-learning-paragraph {
+    padding: 1rem 1.5rem 20px 1.5rem;
+}
+
 /* Contact page content */
 
 /* background color change */
