@@ -129,7 +129,8 @@ main {
     position: relative;
 }
 
-#welcome-text {
+/* style hero title so can be shared on index and courses page */
+.hero-title {
     font-size: 6.5vmin;
     position: absolute;
     bottom: 1rem;
@@ -349,8 +350,8 @@ footer {
         height: 400px;
     }
 
-    #welcome-text {
-     /*  font-size: 6vmin; */
+    .hero-title {
+        font-size: 6vmin;
         padding-left: 6rem;
     }
 
@@ -533,8 +534,8 @@ footer {
 /* media query for larger screens (1500px and up) */
 @media screen and (min-width: 1500px) {
 
-    /* welcome section index html */
-    #welcome-text {
+    /* welcome section index html and courses html */
+    .hero-title {
         font-size: 7vmin;
     }   
     
