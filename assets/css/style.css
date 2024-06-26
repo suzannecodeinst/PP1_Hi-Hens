@@ -117,8 +117,12 @@ main {
 }
 
 #welcome {
-    height: 300px;
     background-image: url("../images/Index_hero-image_Tandhen.webp");
+}
+
+/* style hero images so can be shared on index and courses page */
+.hero-images {
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -202,13 +206,7 @@ main {
 
 /* Courses page */
 #learn-group-hero {
-    height: 300px;
-    width: 100%;
     background-image: url(../images/courses_hero_hens_garden.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    position: relative;
 }
 
 /* Contact page content */
@@ -441,7 +439,7 @@ footer {
     }
 
     /* hero welcome section */
-    #welcome {
+    .hero-images {
         height: 600px;
     }
 
