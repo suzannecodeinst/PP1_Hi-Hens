@@ -65,6 +65,8 @@ Referred to this [article](https://developer.mozilla.org/en-US/docs/Web/CSS/tran
 Google Chrome Dev tools were invaluable to test out css code inparticular to understand flexbox.
 
 Referred to this [article](https://dequeuniversity.com/rules/axe/4.9/list) to check the correct semantic markup for lists after the Lighthouse check flagged it up.
+
+Check breakpoint sizes with [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) to add more media queries for larger screens.
   
 ### Media
 

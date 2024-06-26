@@ -237,7 +237,7 @@ main {
     z-index: 5;
 }
 
-#join-title > h3 {
+#join-title>h3 {
     transform: translate(20px, 22px);
     line-height: 1.5rem;
     padding-left: 1.5rem;
@@ -246,7 +246,7 @@ main {
 
 /* form content */
 #join-form {
-    padding:  0 2.5rem;
+    padding: 0 2.5rem;
 }
 
 .text-input {
@@ -258,11 +258,11 @@ main {
     width: 100%;
 }
 
-.radio-buttons > p {
+.radio-buttons>p {
     margin-bottom: 8px;
 }
 
-.radio-buttons > div {
+.radio-buttons>div {
     margin-bottom: 8px;
 }
 
@@ -350,17 +350,14 @@ footer {
     }
 
     #welcome-text {
-        font-size: 6vmin;
+     /*  font-size: 6vmin; */
         padding-left: 6rem;
-    }
-
-    #intro-paragraph {
-        padding: 1rem 6.5rem 20px 6.5rem;
     }
 
     .intro-paragraph {
         font-size: 1.25rem;
         line-height: 1.5rem;
+        padding: 1rem 6.5rem 20px 6.5rem;
     }
 
     /* why hens section */
@@ -372,7 +369,6 @@ footer {
 
     #why-hens-title h3 {
         font-size: 1.75rem;
-        transform: translate(25px, 20px);
         line-height: 2.25rem;
         padding-left: 3rem;
         padding-top: 3.6rem;
@@ -385,7 +381,7 @@ footer {
         z-index: 1;
         display: flex;
         transform: translateY(-140px);
-       align-items: center;
+        align-items: center;
     }
 
     .reasons-list {
@@ -401,11 +397,7 @@ footer {
         line-height: 1.5rem;
     }
 
-    #reasons-family {
-        padding-top: 10px;
-    }
-
-    #reasons-eggs {
+    #reasons-family, #reasons-eggs {
         padding-top: 10px;
     }
 
@@ -451,16 +443,21 @@ footer {
         height: 600px;
     }
 
+    .intro-paragraph {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        margin-right: 10vw;
+    }
+
     /* why hens section */
     #why-hens-title {
         width: 260px;
         height: 260px;
-        transform: translateY(-45px, -65px);
+        transform: translate(-45px, -65px);
     }
 
     #why-hens-title h3 {
         font-size: 2.4rem;
-        transform: translate(25px, 20px);
         line-height: 2.8rem;
         padding-left: 3rem;
         padding-top: 4.5rem;
@@ -483,4 +480,65 @@ footer {
     #social-media i:hover {
         color: #ffffff;
     }
+}
+
+/* media query for larger screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* welcome section index html */
+    .intro-paragraph {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }    
+
+    /* why hens section on index.html */
+    #why-hens-title {
+        width: 300px;
+        height: 300px;
+        transform: translate(-45px, -65px);
+    }
+
+    #why-hens-title h3 {
+        font-size: 3rem;
+        transform: translate(30px, 30px);
+        line-height: 3.4rem;
+        padding-left: 3rem;
+        padding-top: 4.5rem;
+    }
+    .reasons-list>h4 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+
+    .reasons-list>p {
+        font-size: 1.35rem;
+        line-height: 1.7rem;
+    }
+
+    #reasons-family, #reasons-eggs {
+        padding-top: 15px;
+    }
+}
+
+/* media query for larger screens (1500px and up) */
+@media screen and (min-width: 1500px) {
+
+    /* welcome section index html */
+    #welcome-text {
+        font-size: 7vmin;
+    }   
+    
+    .intro-paragraph {
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+    }    
+
+    /* hen reasons section on index.html */
+    #hen-reasons {
+        transform: translate(-90px, -280px);
+        padding-right: 9rem;
+    }
+
 }
