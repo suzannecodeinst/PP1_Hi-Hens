@@ -41,6 +41,10 @@ I am building the pages mobile first
 
 ## Testing
 
+### Responsive to screen sizes
+
+- I designed the site mobile first and found the circular image elements could spread out too far as the screen size increased. I added media queries to help increase these and the font sizes. I think the index.html page could be redesigned for very large screens as I still think there is too much white space in the bottom right corner. I think buttons could be added here to encourage/remind the user to check out the courses as that is one of the main purposes of the site.
+
 ### Validator testing
 
 - I ran the site through Lighthouse with devtools to check Accessibility of fonts and colors. This highlighted that where I had used a 'ul' element on my index page this wouldn't work very well for screen readers. I changed the elements to divs.
