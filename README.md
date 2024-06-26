@@ -38,6 +38,7 @@ I am building the pages mobile first
     - The Contact Us page contains a form that the user can submit.
     - The form allows the user to select boxes that determine their interest in a specific course.
     - The form cannot be submitted without the fields filled correctly. The user will be asked to fill in their name and email address. 
+    - The submit button reacts to a hover on laptops and larger screens so the user can understand easier that its the interactive element on the page.
 
 ## Testing
 

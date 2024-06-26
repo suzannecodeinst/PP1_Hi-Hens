@@ -479,14 +479,16 @@ footer {
         column-count: 4;
     }
 
-    /* Submit button for form on contact.html */
-    #social-media i:hover {
-        color: #ffffff;
+    /* Contact.html form */
+
+    /* hover button */
+    #form-button:hover {
+        transform: scale(1.1);
     }
 
     /* footer */
-    #form-button i:hover {
-        font-size: 110%;
+    #social-media i:hover {
+        color: #ffffff;
     }
 }
 
