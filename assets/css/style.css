@@ -214,6 +214,10 @@ main {
     padding: 1rem 1.5rem 20px 1.5rem;
 }
 
+#hen-courses-title > h3 {
+font-size: 1rem;
+}
+
 /* Contact page content */
 
 /* background color change */
@@ -424,6 +428,11 @@ footer {
         column-count: 3;
     }
 
+    /* Courses page */
+    #hen-courses-title > h3 {
+        font-size: 1.65rem;
+        }
+
     /* Contact page content */
 
     /* background image */
@@ -476,10 +485,15 @@ footer {
         height: auto;
     }
 
-    /* Gallery photos to resize to four columns */
+    /* gallery photos to resize to four columns */
     #photos {
         column-count: 4;
     }
+
+    /* courses */
+    #hen-courses-title > h3 {
+        font-size: 1.75rem;
+        }
 
     /* Contact.html form */
 
@@ -532,6 +546,12 @@ footer {
     #reasons-family, #reasons-eggs {
         padding-top: 15px;
     }
+
+    /* courses */
+    #hen-courses-title > h3 {
+        font-size: 2.75rem;
+        }
+        
 }
 
 /* media query for larger screens (1500px and up) */
