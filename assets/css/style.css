@@ -146,13 +146,13 @@ main {
 }
 
 /* index why hens section */
-#why-hens-flexbox-container {
+.why-hens-flexbox-container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-#why-hens-title {
+.why-hens-title {
     background-color: #5171a5;
     border-radius: 50%;
     width: 145px;
@@ -160,7 +160,7 @@ main {
     transform: translate(-25px, -25px);
 }
 
-#why-hens-title h3 {
+.why-hens-title h3 {
     transform: translate(25px, 20px);
     line-height: 1.5rem;
     padding-left: 1.5rem;
@@ -365,13 +365,13 @@ footer {
     }
 
     /* why hens section */
-    #why-hens-title {
+    .why-hens-title {
         width: 210px;
         height: 210px;
         transform: translate(-45px, -55px);
     }
 
-    #why-hens-title h3 {
+    .why-hens-title h3 {
         font-size: 1.75rem;
         line-height: 2.25rem;
         padding-left: 3rem;
@@ -454,13 +454,13 @@ footer {
     }
 
     /* why hens section */
-    #why-hens-title {
+    .why-hens-title {
         width: 260px;
         height: 260px;
         transform: translate(-45px, -65px);
     }
 
-    #why-hens-title h3 {
+    .why-hens-title h3 {
         font-size: 2.4rem;
         line-height: 2.8rem;
         padding-left: 3rem;
@@ -506,13 +506,13 @@ footer {
     }    
 
     /* why hens section on index.html */
-    #why-hens-title {
+    .why-hens-title {
         width: 300px;
         height: 300px;
         transform: translate(-45px, -65px);
     }
 
-    #why-hens-title h3 {
+    .why-hens-title h3 {
         font-size: 3rem;
         transform: translate(30px, 30px);
         line-height: 3.4rem;
