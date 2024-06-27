@@ -290,7 +290,6 @@ main {
     transform: translateY(-10px);
 }
 
-
 /* footer */
 footer {
     background-color: #aecfdf;
@@ -399,7 +398,7 @@ footer {
 
     .reasons-list>p {
         font-size: 1.25rem;
-        line-height: 1.5rem;
+        line-height: 1.7rem;
     }
 
     #reasons-family, #reasons-eggs {
@@ -527,7 +526,7 @@ footer {
 
     .reasons-list>p {
         font-size: 1.35rem;
-        line-height: 1.7rem;
+        line-height: 1.9rem;
     }
 
     #reasons-family, #reasons-eggs {
