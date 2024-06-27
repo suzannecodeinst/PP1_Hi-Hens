@@ -215,7 +215,7 @@ main {
 }
 
 #hen-courses-title > h3 {
-font-size: 1rem;
+padding-left: 1.2rem;
 }
 
 /* Contact page content */
@@ -430,7 +430,7 @@ footer {
 
     /* Courses page */
     #hen-courses-title > h3 {
-        font-size: 1.65rem;
+        padding-left: 2.5rem;
         }
 
     /* Contact page content */
@@ -491,11 +491,8 @@ footer {
     }
 
     /* courses */
-    #hen-courses-title > h3 {
-        font-size: 1.75rem;
-        }
 
-    /* Contact.html form */
+    /* contact.html form */
 
     /* hover button */
     #form-button:hover {
@@ -551,7 +548,7 @@ footer {
     #hen-courses-title > h3 {
         font-size: 2.75rem;
         }
-        
+
 }
 
 /* media query for larger screens (1500px and up) */
