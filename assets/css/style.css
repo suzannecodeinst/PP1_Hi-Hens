@@ -239,6 +239,19 @@ padding-left: 1.2rem;
     line-height: 1.25rem;
 }
 
+.picture-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#hentro-image {
+    width: 55%;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* Contact page content */
 
 /* background color change */
