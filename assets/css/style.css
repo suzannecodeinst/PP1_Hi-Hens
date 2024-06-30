@@ -222,9 +222,9 @@ main {
     padding: 0 2rem 0 2rem;
 }
 
-.courses-titles>h4 {
+.courses-titles>h3 {
     padding-bottom: 0.25rem;
-    font-size: 110%;
+    color: #443850;
 }
 
 .courses-list {
@@ -233,10 +233,6 @@ main {
 
 .courses-titles>p {
     line-height: 1.25rem;
-}
-
-.courses-titles>h4 {
-    font-family: "Montserrat", sans-serif;
 }
 
 .courses-list>li {
@@ -502,6 +498,10 @@ footer {
         position: relative;
         align-items: flex-start;
         flex-direction: column;
+    }
+
+    .courses-titles>h3 {
+        font-size: 1.5rem;
     }
 
     .courses-titles>p {
