@@ -492,12 +492,25 @@ footer {
         padding-left: 2.5rem;
     }
 
+    .courses-larger-screens-container {
+        display: flex;
+        margin-bottom: 2.5rem;
+        transform: translateY(-50px);
+    }
+
+    .picture-button-container {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 2rem;
+    }
+
     .courses-titles {
-        padding: 0 7.5rem 0 7rem;
         display: flex;
         position: relative;
         align-items: flex-start;
         flex-direction: column;
+        padding: 0 0 0 8rem;
     }
 
     .courses-titles>h3 {
