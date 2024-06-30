@@ -272,6 +272,10 @@ main {
     padding-top: 1rem;
 }
 
+#henhouse-image-larger {
+    display: none;
+}
+
 .get-in-touch {
     color: #ffffff;
     padding: 20px 15px;
@@ -556,6 +560,23 @@ footer {
     #drhen-image-larger {
         display: block;
         width: 25vw;
+    }
+
+    #hen-house>p {
+        padding-right: 2rem;
+    }
+
+    #henhouse-image {
+        display: none;
+    }
+
+    #henhouse-image-larger {
+        display: block;
+        width: 25vw;
+    }
+
+    #henhouse-pic-button {
+        margin-bottom: 0.5rem;
     }
 
     .get-in-touch {
