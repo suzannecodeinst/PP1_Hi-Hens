@@ -252,6 +252,10 @@ main {
     height: auto;
 }
 
+#hentro-image-larger {
+    display: none;
+}
+
 #drhen-image {
     width: 50%;
     height: auto;
@@ -525,6 +529,22 @@ footer {
     .courses-list>li {
         font-size: 1.25rem;
         line-height: 1.7rem;
+    }
+
+    #hentro-image {
+        display: none;
+    }
+
+    #hentro-image-larger {
+        display: block;
+        width: 25vw;
+    }
+
+    .get-in-touch {
+        margin-right: 4rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        scale: 1.3;
     }
 
     /* Contact page content */
