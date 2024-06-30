@@ -262,6 +262,10 @@ main {
     padding-top: 1rem;
 }
 
+#drhen-image-larger {
+    display: none;
+}
+
 #henhouse-image {
     width: 60%;
     height: auto;
@@ -536,6 +540,20 @@ footer {
     }
 
     #hentro-image-larger {
+        display: block;
+        width: 25vw;
+    }
+
+    #drhen-pic-button {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #drhen-image {
+        display: none;
+    }
+
+    #drhen-image-larger {
         display: block;
         width: 25vw;
     }
