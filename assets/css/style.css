@@ -689,6 +689,11 @@ footer {
 
     #form-laptops-text {
         display: block;
+        position: relative;
+        font-size: 3rem;
+        padding: 2.5rem 2rem 0.5rem 2rem;
+        text-align: center;
+        text-shadow: 1px 1px 3px #3d011d;
     }
 
     #join-title>h3 {
