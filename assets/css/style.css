@@ -321,6 +321,10 @@ main {
     padding-top: 1.75rem;
 }
 
+#form-laptops-text {
+    display: none;
+}
+
 /* form content */
 #join-form {
     padding: 0 2.5rem;
@@ -667,6 +671,36 @@ footer {
     }
 
     /* contact.html form */
+    /* hide image for smaller screens */
+    #contact-img-mobile {
+        display: none;
+    }
+
+    #form-container-laptops {
+        background-image: url(../images/bg_hen_formpage.webp);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    #join-title {
+        display: none;
+    }
+
+    #form-laptops-text {
+        display: block;
+    }
+
+    #join-title>h3 {
+        color: #5171a5;
+    }
+
+    #join-form {
+        background-color: #bbbe64;
+        padding: 40px;
+        border-radius: 20px;
+
+    }
 
     /* hover button */
     #form-button:hover {
