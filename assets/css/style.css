@@ -252,6 +252,12 @@ padding-left: 1.2rem;
     height: auto;
 }
 
+#drhen-image {
+    width: 50%;
+    height: auto;
+    padding-top: 1rem;
+}
+
 .get-in-touch {
     color: #ffffff;
     padding:  20px 15px;
@@ -261,6 +267,7 @@ padding-left: 1.2rem;
     text-decoration: none;
     margin-top: 1.5rem;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /* Contact page content */
