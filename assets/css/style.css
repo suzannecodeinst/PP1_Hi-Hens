@@ -522,7 +522,7 @@ footer {
         position: relative;
         align-items: flex-start;
         flex-direction: column;
-        padding: 0 0 0 8rem;
+        padding: 0 2rem 0 8rem;
     }
 
     .courses-titles>h3 {
@@ -644,6 +644,22 @@ footer {
     }
 
     /* courses */
+    .courses-larger-screens-container {
+        margin-right: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .picture-button-container {
+        align-items: flex-start;
+    }
+
+    .get-in-touch {
+        scale: 1.4;
+    }
+
+    #hen-house>p {
+        padding-right: 4rem;
+    }
 
     /* contact.html form */
 
@@ -703,6 +719,13 @@ footer {
     #hen-courses-title>h3 {
         font-size: 2.75rem;
     }
+
+    .picture-button-container>img {
+        max-width: 260px;
+    }
+
+    /* courses */
+
 
 }
 
