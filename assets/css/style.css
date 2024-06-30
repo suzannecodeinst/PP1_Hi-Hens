@@ -661,6 +661,11 @@ footer {
         padding-right: 4rem;
     }
 
+    /* get in touch hover */
+    .get-in-touch:hover {
+        transform: scale(1.1);
+    }
+
     /* contact.html form */
 
     /* hover button */
