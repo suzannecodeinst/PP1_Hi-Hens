@@ -86,6 +86,11 @@ I am building the pages mobile first
 
 - ![Screenshot of the lighthouse testing for all pages](/assets/images/readmeimg/lighthouse.webp)
 
+- HTML
+    - Tested all pages through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+        - Gallery page returned an error for no heading. I added a hidden H2 after the section div opened to correct this. I referred to the Love Running project to figure this out
+        - all other pages passed.
+
 ## Credits
 
 Referred to Love Running site tutorial as a reminder of code structure, comment placement and order of build.

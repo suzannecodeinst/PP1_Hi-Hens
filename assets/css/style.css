@@ -201,6 +201,7 @@ main {
 }
 
 /* Gallery page content */
+/* referred to Love Running to solve hiddenheading after HTML check */
 .hidden-heading {
     display: none;
 }
