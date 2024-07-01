@@ -71,7 +71,7 @@ I am building the pages mobile first
  - A 'Hen How To' page could provide a more detailed area of the steps to managing hens. The purpose of this page would be to encourage the user to sign up for courses, click through to affiliated links or a shopping area where they can purchase recommended items.
  - This page could also contain small video examples of the tasks involved, encouraging the user to click through to a youtube channel of more content. A long term goal of the site owner would be to offer some paid course content available online.
  - A 'Hen Breed Finder' would be a quiz which would help match you up with a hen breed based on personality types aswell as the specifics of the users location. This would be a fun way of enagaging the user to find out more about the unique nature of different hens and would also encourage the user towards affiliated links and sites where different breeds can be purchased.
- - Newsletter contact form, this would encourage the user to sign up for a contact form for regular newsletter updates which would contain offer codes for courses, products and new course dates. The site owner would be able to start creating their own database which may help with creating beneficial affiliate links with other producers and services.
+ - Newsletter contact form, this would encourage the user to sign up for a contact form for regular newsletter updates which would contain offer codes for courses, products and new course dates. The site owner would be able to start creating their own database which may help with creating beneficial affiliate links with other producers and services, aswell as building a stronger relationship with their users.
 
 ## Testing
 
