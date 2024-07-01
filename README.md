@@ -17,11 +17,17 @@ I am building the pages mobile first
     - The Navigation bar is consistently visible at the top of each page. It features the logo and links to the Home page, Gallery, Courses and Contact pages. It is fully responsive and uses a hamburger drop-down for mobiles.
     - The Navigation bar is always available and makes sure the user can easily find their way to the pages across the site.
 
+    - ![Example of the navigation bar for larger screens than mobile](/assets/images/readmeimg/navbar.webp)    
+
 - Home Page
 
     - The Landing page Hero image welcomes the user to the site and illustrates some of the key qualities of the site owners; family friendly, happy hens, bright and sunny.
     - Introductary text welcomes you and explains the site contents.
     - The WHY HENS? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
+
+    - ![Screenshot of Hi Hens landing page hero image and introduction](/assets/images/readmeimg/index-hero.webp)   
+
+    - ![Screenshot of landing page Why Hens section](/assets/images/readmeimg/index-whyhens.webp)
 
 - The Footer
 
@@ -29,18 +35,36 @@ I am building the pages mobile first
     - Currently the social media links are for Facebook, Instagram and Youtube, they link to the main pages of the social media groups, not bespoke pages.
     - The social media links always open up in new tabs, and on larger screens for laptops and up, will highlight white as you hover.
 
+    - ![Screenshot of footer with social media icons](/assets/images/readmeimg/footer.webp)
+
 
 - Gallery Page
 
     - The Gallery Page shows images of the site owners hens and family.
     - The purpose of the page is to share with the user visual information of what keeping hens can look like throughout the year, the set up of the space, the interaction of the family and the joy that this can bring. It serves to be a positive encouragement to the user and also prompt their curiosity to contact the user with a view to joining courses the site owner would like to run.
 
- - Contact Us
+    - ![Screenshot of the Gallery page](/assets/images/readmeimg/gallery.webp)
 
-    - The Contact Us page contains a form that the user can submit.
+ - Courses Page
+
+    - The Courses page has a hero image of two hens in a verdant setting with the headline **Learn with us**
+    - This page gives a brief introduction to the user of where the site owners live with their hens and the possible locations hens can be kept in.
+    - There is an outline of three courses that the user can sign up for. Each outline has a bright and engaging image accompanying it and a clickable button that reacts to a hover on larger screens, the button says "Get in Touch" and takes the user straight to the Contact page when clicked. It will not open a new page.
+    - the purpose of this page is to encourgae the user to sign up for courses.
+
+    - ![Screenshot of the Courses hero section](/assets/images/readmeimg/courses-hero.webp)
+
+    - ![Screenshot of the Courses information section](/assets/images/readmeimg/courses-info.webp)
+
+ - Contact Page
+
+    - The Contact page contains a form that the user can submit.
     - The form allows the user to select boxes that determine their interest in a specific course.
     - The form cannot be submitted without the fields filled correctly. The user will be asked to fill in their name and email address. 
     - The submit button reacts to a hover on laptops and larger screens so the user can understand easier that its the interactive element on the page.
+    - The form is styled differently for larger laptops and screens, and sits ontop of the hero image as the nature of the screen becomes more landscape.
+
+    - ![Screenshot of the Form for larger screens](/assets/images/readmeimg/form-larger.webp)
 
 ## Testing
 
