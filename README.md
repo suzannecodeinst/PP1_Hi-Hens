@@ -89,11 +89,11 @@ I am building the pages mobile first
 - HTML
     - Tested all pages through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
         - Gallery page returned an error for no heading. I added a hidden H2 after the section div opened to correct this. I referred to the Love Running project to figure this out
-        - all other pages passed.
+        - all pages passed.
 
 - CSS
     - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)   
-        - Errors camne back for the use of the wrong value when scaling up an element for larger screens, I altered the values to percentages and tried again, the validator still came back with an error. I googled the problem and the responses I found [here](https://github.com/validator/validator/issues/1091).
+        - Errors came back for the use of the wrong value when scaling up an element for larger screens, I altered the values to percentages and tried again, the validator still came back with an error. I googled the problem and the responses I found [here](https://github.com/validator/validator/issues/1091).
         - I changed the scale to a transform: scale (value) and the validator passed the css.
 
 ## Deployment  
