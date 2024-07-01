@@ -10,7 +10,7 @@ The site owners goal is to provide practical introductory information in a warm 
 
 ## Features
 
-I am building the pages mobile first
+I built the pages mobile first
 
 - Navigation
 
@@ -49,7 +49,7 @@ I am building the pages mobile first
 
     - The Courses page has a hero image of two hens in a verdant setting with the headline **Learn with us**
     - This page gives a brief introduction to the user of where the site owners live with their hens and the possible locations hens can be kept in.
-    - There is an outline of three courses that the user can sign up for. Each outline has a bright and engaging image accompanying it and a clickable button that reacts to a hover on larger screens, the button says "Get in Touch" and takes the user straight to the Contact page when clicked. It will not open a new page.
+    - There is an outline of three courses that the user can sign up for. Each outline has a bright and engaging image beside it and a clickable button that reacts to a hover on larger screens, the button says "Get in Touch" and takes the user straight to the Contact page when clicked. It will not open a new page.
     - the purpose of this page is to encourgae the user to sign up for courses.
 
     - ![Screenshot of the Courses hero section](/assets/images/readmeimg/courses-hero.webp)
