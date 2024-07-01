@@ -91,10 +91,17 @@ I am building the pages mobile first
         - Gallery page returned an error for no heading. I added a hidden H2 after the section div opened to correct this. I referred to the Love Running project to figure this out
         - all other pages passed.
 
--CSS
+- CSS
     - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)   
-        - Errors camne back for the use of the wrong value when scaling up an element for larger screens, I altered the values to percentages and tried again, the validator stillame back with an error. I goggled the problem and the responses I found [here](https://github.com/validator/validator/issues/1091)
-        -I changed the scale to a transform: scale (value) and the validator passed the css.
+        - Errors camne back for the use of the wrong value when scaling up an element for larger screens, I altered the values to percentages and tried again, the validator still came back with an error. I googled the problem and the responses I found [here](https://github.com/validator/validator/issues/1091).
+        - I changed the scale to a transform: scale (value) and the validator passed the css.
+
+## Deployment  
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.   
+The live link can be found here - https://suzannecodeinst.github.io/PP1_Hi-Hens/           
 
 ## Credits
 
