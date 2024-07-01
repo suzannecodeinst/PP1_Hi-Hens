@@ -71,18 +71,20 @@ I am building the pages mobile first
  - A 'Hen How To' page could provide a more detailed area of the steps to managing hens. The purpose of this page would be to encourage the user to sign up for courses, click through to affiliated links or a shopping area where they can purchase recommended items.
  - This page could also contain small video examples of the tasks involved, encouraging the user to click through to a youtube channel of more content. A long term goal of the site owner would be to offer some paid course content available online.
  - A 'Hen Breed Finder' would be a quiz which would help match you up with a hen breed based on personality types aswell and the specifics of the users location. This would be a fun way of enagaging the user to find out more about the unique nature of different hens and would also encourage the user towards affiliated links and sites where different breeds can be purchased.
- - Newsletter contact form, this would encourage the user to sign up for a contact form for regular newsletter updates which would contain offer codes for courses, products and new course dates. The site owner would be able to start creating their own database which may help with creating benefiiall affiliate links with other producers and services.
+ - Newsletter contact form, this would encourage the user to sign up for a contact form for regular newsletter updates which would contain offer codes for courses, products and new course dates. The site owner would be able to start creating their own database which may help with creating beneficial affiliate links with other producers and services.
 
 ## Testing
 
 ### Responsive to screen sizes
 
 - I designed the site mobile first and found the circular image elements could spread out too far as the screen size increased. I added media queries to help increase these and the font sizes. I think the index.html page could be redesigned for very large screens as I still think there is too much white space in the bottom right corner. I think buttons could be added here to encourage/remind the user to check out the courses as that is one of the main purposes of the site.
-- The format of the Contact page was redesigned for laptop screens and larger so that it was better suited toa  landscape format and the form box did not stretch too wide. I still feel that this page could be improved, particularly in the 'middle sizes' of a large ipad screen for example, I am not completely happy with the way the hero image fills the screen.
+- The format of the Contact page was redesigned for laptop screens and larger so that it was better suited to a  landscape format and the form box did not stretch too wide. I still feel that this page could be improved, particularly in the 'middle sizes' of a large ipad screen for example, I am not completely happy with the way the hero image fills the screen.
 
 ### Validator testing
 
 - I ran the site through Lighthouse with devtools to check Accessibility of fonts and colors. This highlighted that where I had used a 'ul' element on my index page this wouldn't work very well for screen readers. I changed the elements to divs.
+
+- ![Screenshot of the lighthouse testing for all pages](/assets/images/readmeimg/lighthouse.webp)
 
 ## Credits
 
