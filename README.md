@@ -92,7 +92,9 @@ I am building the pages mobile first
         - all other pages passed.
 
 -CSS
-    - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)        
+    - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)   
+        - Errors camne back for the use of the wrong value when scaling up an element for larger screens, I altered the values to percentages and tried again, the validator stillame back with an error. I goggled the problem and the responses I found [here](https://github.com/validator/validator/issues/1091)
+        -I changed the scale to a transform: scale (value) and the validator passed the css.
 
 ## Credits
 
