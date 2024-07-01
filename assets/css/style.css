@@ -201,6 +201,10 @@ main {
 }
 
 /* Gallery page content */
+.hidden-heading {
+    display: none;
+}
+
 #photos img {
     width: 100%;
 }
