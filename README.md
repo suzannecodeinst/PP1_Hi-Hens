@@ -78,6 +78,7 @@ I am building the pages mobile first
 ### Responsive to screen sizes
 
 - I designed the site mobile first and found the circular image elements could spread out too far as the screen size increased. I added media queries to help increase these and the font sizes. I think the index.html page could be redesigned for very large screens as I still think there is too much white space in the bottom right corner. I think buttons could be added here to encourage/remind the user to check out the courses as that is one of the main purposes of the site.
+- The format of the Contact page was redesigned for laptop screens and larger so that it was better suited toa  landscape format and the form box did not stretch too wide. I still feel that this page could be improved, particularly in the 'middle sizes' of a large ipad screen for example, I am not completely happy with the way the hero image fills the screen.
 
 ### Validator testing
 
