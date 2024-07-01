@@ -91,6 +91,9 @@ I am building the pages mobile first
         - Gallery page returned an error for no heading. I added a hidden H2 after the section div opened to correct this. I referred to the Love Running project to figure this out
         - all other pages passed.
 
+-CSS
+    - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)        
+
 ## Credits
 
 Referred to Love Running site tutorial as a reminder of code structure, comment placement and order of build.
