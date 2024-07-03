@@ -22,8 +22,8 @@ I built the pages mobile first
 - Home Page
 
     - The Landing page Hero image welcomes the user to the site and illustrates some of the key qualities of the site owners; family friendly, happy hens, bright and sunny.
-    - Introductary text welcomes you and explains the site contents.
-    - The WHY HENS? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
+    - Introductary text welcomes you and explains the site contents to new users.
+    - The Why Hens? section provides answers to the question and encourages the user to consider why hens can be a good idea as family pets in the city.
 
     - ![Screenshot of Hi Hens landing page hero image and introduction](/assets/images/readmeimg/index-hero.webp)   
 
@@ -48,7 +48,7 @@ I built the pages mobile first
  - Courses Page
 
     - The Courses page has a hero image of two hens in a verdant setting with the headline **Learn with us**
-    - This page gives a brief introduction to the user of where the site owners live with their hens and the possible locations hens can be kept in.
+    - This page gives a brief introduction to the user of where the site owners live with their hens and the possible locations hens can be kept in. The purpose of this is to give an immeadiate example of the opportunities to keep hens in more unusual places and encourage the user to want to find out/learn more and engage with a course.
     - There is an outline of three courses that the user can sign up for. Each outline has a bright and engaging image beside it and a clickable button that reacts to a hover on larger screens, the button says "Get in Touch" and takes the user straight to the Contact page when clicked. It will not open a new page.
     - the purpose of this page is to encourage the user to sign up for courses.
 
@@ -82,25 +82,25 @@ I built the pages mobile first
 
 ### Validator testing
 
-- I ran the site through Lighthouse with devtools to check Accessibility of fonts and colors. This highlighted that where I had used a 'ul' element on my index page this wouldn't work very well for screen readers. I changed the elements to divs.
+- I ran the site through Lighthouse with devtools to check Accessibility of fonts and colors. This highlighted that where I had used a 'ul' element on my index page this wouldn't work very well for screen readers. I changed the elements to divs. The lighthouse graphs below were for all pages as mobile, desktop assessment in lighthouse saw performance scores improve.
 
 - ![Screenshot of the lighthouse testing for all pages](/assets/images/readmeimg/lighthouse.webp)
 
 - HTML
-    - Tested all pages through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+    - Tested all pages through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsuzannecodeinst.github.io%2FPP1_Hi-Hens%2F)
         - Gallery page returned an error for no heading. I added a hidden H2 after the section div opened to correct this. I referred to the Love Running project to figure this out
         - all pages passed.
 
 - CSS
-    - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)   
+    - Tested the css through [W3C Css Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsuzannecodeinst.github.io%2FPP1_Hi-Hens%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)   
         - Errors came back for the use of the wrong value when scaling up an element for larger screens, I altered the values to percentages and tried again, the validator still came back with an error. I googled the problem and the responses I found [here](https://github.com/validator/validator/issues/1091).
         - I changed the scale to a transform: scale (value) and the validator passed the css.
 
 ## Deployment  
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab
-    - From the source section drop-down menu, select the Master Branch
-    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.   
+    - From the source section drop-down menu, select the Main Branch
+    - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.   
 The live link can be found here - https://suzannecodeinst.github.io/PP1_Hi-Hens/           
 
 ## Credits
@@ -111,7 +111,7 @@ FreeCodeCamp [article](https://www.freecodecamp.org/news/css-units-when-to-use-e
 
 Refine [article](https://refine.dev/blog/rem-vs-em/#introduction) on the difference between rem and em.
 
-Directly referred to code from Love Running for the menu dropdown html and css.
+Directly copied the code from Love Running for the menu dropdown html and css.
 
 Pixel By Hand [blog post](https://www.pixelbyhand.com/website-image-size-guidelines/)
  for guidance on sizing of images for web.
